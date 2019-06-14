@@ -13,5 +13,5 @@
     state: touch
   with_items: 
     - { filename: "samplefile", extension: "xml" }
-    - { filename: "samplefile2", extension: "html" }
-    - { filename: "samplefile3", extension: "sh" }
+    - { filename: "samplefile2", extension: "html"}
+    - { filename: "samplefile3", extension: "sh"}
