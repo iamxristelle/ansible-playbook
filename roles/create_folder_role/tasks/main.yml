@@ -12,5 +12,5 @@
     var: output
 
 - name: Create folder using shell module
-  shell: "mkdir /tmp/samplefolderusingshellmodule"
+  shell: "mkdir /tmp/{{ folder2name }}"
   when: output.stat.exists!=true
